@@ -37,7 +37,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: hystrix.stream
 
 ---
 server:
@@ -75,6 +75,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: hystrix.stream
 
 
