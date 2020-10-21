@@ -17,7 +17,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8 #开发环境，数据库db01
     username: root
-    password: root
+    password: 123456
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -55,7 +55,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_db02?serverTimezone=GMT%2B8 #生产环境，数据库db02
     username: root
-    password: root
+    password: 123456
     dbcp2:
       min-idle: 5
       initial-size: 5
