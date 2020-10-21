@@ -6,7 +6,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.xudong.entities
+  type-aliases-package: com.mengxuegu.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: dev #开发环境
@@ -44,7 +44,7 @@ server:
   port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.xudong.entities
+  type-aliases-package: com.mengxuegu.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: prod #生产环境
